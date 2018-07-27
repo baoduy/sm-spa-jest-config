@@ -9,7 +9,7 @@ Add this repo as the sub-module of your repo with the module path is **configs\j
 {
   "scripts": {
     "git:jest": "git submodule update --init --remote configs/jest",
-    "test": "jest --watch --coverage --config=configs/jest/jest.json",
+    "test": "npm run git:jest && jest --watch --coverage --config=configs/jest/jest.json",
     "test:ci": "npm run git:jest && jest --ci --coverage --config=configs/jest/jest.json && codecov -t <YOUR CODECOV ID>",
   },
   "devDependencies": {
