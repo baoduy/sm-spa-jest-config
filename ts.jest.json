@@ -1,7 +1,7 @@
 {
   "rootDir": "../../",
   "coverageDirectory": "<rootDir>/tests/__coverage__/",
-  "setupTestFrameworkScriptFile": "<rootDir>/configs/jest/testSetup.js",
+  "setupTestFrameworkScriptFile": "<rootDir>/configs/jest/ts.testSetup.js",
   "setupFiles": ["<rootDir>/configs/jest/__mocks__/shim.js"],
   "roots": ["<rootDir>/tests/"],
   "moduleNameMapper": {
