@@ -18,6 +18,5 @@
     "FAKE_SERVER": false
   },
   "bail": true,
-  "verbose": true,
-  "testEnvironment": "node"
+  "verbose": true
 }
