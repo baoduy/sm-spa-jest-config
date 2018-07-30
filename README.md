@@ -84,6 +84,7 @@ Add this repo as the sub-module of your repo with the module path is **configs\j
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
+    "jsdom-global": "^3.0.2",
     "jest": "23.4.1",
     "npm-run-all": "^4.1.3"
   }

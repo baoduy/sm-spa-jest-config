@@ -15,7 +15,8 @@
   "moduleDirectories": ["node_modules"],
   "globals": {
     "DEVELOPMENT": false,
-    "FAKE_SERVER": false
+    "FAKE_SERVER": false,
+    "window": {}
   },
   "bail": true,
   "verbose": true,
