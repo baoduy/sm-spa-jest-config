@@ -13,7 +13,12 @@
   "transformIgnorePatterns": ["/node_modules/"],
   "testRegex": "/tests/.*\\.test\\.(js|jsx)$",
   "moduleDirectories": ["node_modules"],
+  "transform": {
+    "^.+\\.js?$": "babel-jest",
+    "^.+\\.jsx?$": "babel-jest"
+  },
   "globals": {
+    "NODE_ENV": "test",
     "DEVELOPMENT": false,
     "FAKE_SERVER": false,
     "window": {}
