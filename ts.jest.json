@@ -12,7 +12,7 @@
   "moduleFileExtensions": ["js", "jsx", "ts", "tsx"],
   "transform": {
     "^.+\\.tsx?$": "ts-jest",
-    "^.+\\.jsx?$": "babel-jest"
+    "^.+\\.jsx?$": "babel-7-jest"
   },
   "transformIgnorePatterns": ["/node_modules/"],
   "testRegex": "/tests/.*\\.test\\.(js|jsx|ts|tsx)$",
