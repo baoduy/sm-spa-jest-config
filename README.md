@@ -4,9 +4,12 @@ the sub-module of jest configuration for unit tests.
 
 ## The Sub-module path
 
-Add this repo as the sub-module of your repo with the module path is **configs\jest**
+Add this repository as the sub-module of your repository with the module path is **configs\jest**
 
-## Recommend srciptd & npm packages
+- The code coverage report folder: **./tests/--coverage--/**
+- The jest-html-reporter folder: **./tests/--reports--/**
+
+## Recommend scripts & npm packages
 
 ### TypeScript Project
 
@@ -23,17 +26,18 @@ Add this repo as the sub-module of your repo with the module path is **configs\j
       "npm run git:jest && jest --ci --coverage --config=configs/jest/ts.jest.json && codecov -t <YOUR CODECOV ID>"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^23.4.2",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "env": "0.0.2",
-    "enzyme": "3.3.0",
-    "enzyme-adapter-react-16": "1.1.1",
-    "enzyme-to-json": "3.3.4",
-    "jest": "23.4.1",
-    "jsdom": "11.12.0",
-    "jsdom-global": "3.0.2",
-    "ts-jest": "^23.0.1"
+    "babel-cli": "latest",
+    "babel-jest": "latest",
+    "babel-plugin-transform-es2015-modules-commonjs": "latest",
+    "env": "latest",
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "latest",
+    "enzyme-to-json": "latest",
+    "jest": "latest",
+    "jest-html-reporter": "latest",
+    "jsdom": "latest",
+    "jsdom-global": "latest",
+    "ts-jest": "latest"
   }
 }
 ```
@@ -73,20 +77,20 @@ Add this repo as the sub-module of your repo with the module path is **configs\j
       "npm-run-all git:jest && jest --ci --coverage --config=configs/jest/jest.json && codecov -t <YOUR CODECOV ID>"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "babel-core": "6.26.3",
-    "babel-eslint": "8.2.6",
-    "babel-jest": "23.4.0",
-    "babel-loader": "7.1.5",
-    "babel-plugin-module-resolver": "3.1.1",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-react-latest": "6.1.0",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.4",
-    "jsdom-global": "^3.0.2",
-    "jest": "23.4.1",
-    "npm-run-all": "^4.1.3"
+    "babel-cli": "latest",
+    "babel-core": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-module-resolver": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react-latest": "latest",
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "latest",
+    "enzyme-to-json": "latest",
+    "jsdom-global": "latest",
+    "jest": "latest",
+    "npm-run-all": "latest"
   }
 }
 ```
